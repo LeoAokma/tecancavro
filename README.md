@@ -13,3 +13,6 @@ Modules are provided for:
 ##### **API, serial wrapper, and generic syringe control are all working ([tecanapi.py](https://github.com/benpruitt/tecancavro/blob/master/tecancavro/tecanapi.py), [transport.py](https://github.com/benpruitt/tecancavro/blob/master/tecancavro/tecanapi.py), [syringe.py](https://github.com/benpruitt/tecancavro/blob/master/tecancavro/syringe.py)) 
 ##### **Model-specific code is working but still evolving
 
+# Edited
+
+#### This module is edited by Leo in order to fix some problems for controlling XP-3000 pumps
