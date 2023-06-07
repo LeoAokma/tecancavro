@@ -613,8 +613,8 @@ class XCaliburD(Syringe):
 
         if not 0 <= input_pin < 2:
             raise(ValueError('`input_pin` [{0}] must be between 0 and 2'
-                             ''.format(input_sig)))
-        cmd_string = 'H{0}'.format(input_sig)
+                             ''.format(input_pin)))
+        cmd_string = 'H{0}'.format(input_pin)
         return self.sendRcv(cmd_string)
 
     #########################################################################
